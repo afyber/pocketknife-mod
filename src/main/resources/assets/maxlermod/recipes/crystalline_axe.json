@@ -1,0 +1,19 @@
+{
+  "result": {
+    "item": "maxlermod:crystalline_axe"
+  },
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "aa",
+    "ab",
+    " b"
+  ],
+  "key": {
+    "a": {
+      "item": "maxlermod:inscribed_crystal_component"
+    },
+    "b": {
+      "item": "maxlermod:adamantite_ingot"
+    }
+  }
+}

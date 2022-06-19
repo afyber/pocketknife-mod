@@ -1,0 +1,19 @@
+{
+  "result": {
+    "item": "maxlermod:crystal_component"
+  },
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "a",
+    "b",
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "maxlermod:adamantite_ingot"
+    },
+    "b": {
+      "item": "maxlermod:crystal"
+    }
+  }
+}

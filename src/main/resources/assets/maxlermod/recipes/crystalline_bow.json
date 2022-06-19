@@ -1,0 +1,19 @@
+{
+  "result": {
+    "item": "maxlermod:crystalline_bow"
+  },
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "ba ",
+    "b a",
+    "ba"
+  ],
+  "key": {
+    "a": {
+      "item": "maxlermod:inscribed_crystal_component"
+    },
+    "b": {
+      "item": "minecraft:string"
+    }
+  }
+}

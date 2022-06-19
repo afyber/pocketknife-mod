@@ -1,0 +1,19 @@
+{
+  "result": {
+    "item": "maxlermod:crystalline_pickaxe"
+  },
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "aaa",
+    " b ",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "item": "maxlermod:inscribed_crystal_component"
+    },
+    "b": {
+      "item": "maxlermod:adamantite_ingot"
+    }
+  }
+}
