@@ -1,6 +1,5 @@
 package afyber.maxlermod;
 
-import afyber.maxlermod.enchantments.HomingEnchantment;
 import afyber.maxlermod.items.ItemBowCustom;
 import afyber.maxlermod.items.ItemHolder;
 import afyber.maxlermod.items.ToolMaterialCustom;
@@ -12,7 +11,6 @@ import micdoodle8.mods.galacticraft.planets.asteroids.items.AsteroidsItems;
 import micdoodle8.mods.galacticraft.planets.mars.items.MarsItems;
 import micdoodle8.mods.galacticraft.planets.venus.VenusItems;
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.enchantment.Enchantment;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -37,9 +35,6 @@ public final class EventSubscriber {
 		registry.register(ItemRegistrationHelper.newItem(new ItemBowCustom(640, 4), "crystalline_bow").setCreativeTab(CreativeTabs.COMBAT));
 		ItemRegistrationHelper.registerNewToolSet(registry, "adamantite", ToolMaterialCustom.ADAMANTITE);
 		ItemRegistrationHelper.registerNewToolSet(registry, "crystalline", ToolMaterialCustom.CRYSTALLINE);
-
-		// Overrides
-		registry.register(new ItemBowCustom(384, 0).setRegistryName("minecraft", "bow").setUnlocalizedName("bow"));
 	}
 
 	@SubscribeEvent
@@ -53,11 +48,5 @@ public final class EventSubscriber {
 		}
 		CompressorRecipes.addRecipe(new ItemStack(ItemHolder.ADAMANTITE_INGOT), "XYB", "ZAZ", "BYX", 'X', new ItemStack(AsteroidsItems.basicItem, 1, 6), 'Y', new ItemStack(VenusItems.basicItem, 1, 1), 'Z', new ItemStack(MarsItems.marsItemBasic, 1, 2), 'A', new ItemStack(Items.DIAMOND), 'B', new ItemStack(GCItems.basicItem, 1, 10));
 		AE2Api.registerInscriberRecipe(InscriberProcessType.INSCRIBE, new ItemStack(ItemHolder.INSCRIBED_CRYSTAL_COMPONENT), AE2Api.getItemStack(AE2Api.getAE2Materials().engProcessorPrint(), 1), AE2Api.getItemStack(AE2Api.getAE2Materials().siliconPrint(), 1), new ItemStack(ItemHolder.CRYSTAL_COMPONENT));
-	}
-
-	@SubscribeEvent
-	public static void registerEnchantments(RegistryEvent.Register<Enchantment> event) {
-		IForgeRegistry<Enchantment> registry = event.getRegistry();
-		registry.register(new HomingEnchantment().setRegistryName(MaxlerMod.MOD_ID, "homing"));
 	}
 }
