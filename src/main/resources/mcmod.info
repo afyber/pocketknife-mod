@@ -3,7 +3,7 @@
   "modid": "maxlermod",
   "name": "Maxler Mod",
   "description": "A custom mod for the Maxler Modpack, bringing together machines and items from AE2 and Galacticraft to create powerful weapons and tools.",
-  "version": "0.0.1.0",
+  "version": "0.1.0.0",
   "mcversion": "1.12.2",
   "url": "",
   "updateUrl": "",

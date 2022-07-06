@@ -15,7 +15,7 @@ public class MaxlerMod
 {
     public static final String MOD_ID = "maxlermod";
     public static final String MOD_NAME = "Maxler Mod";
-    public static final String MOD_VERSION = "0.0.1.0";
+    public static final String MOD_VERSION = "0.1.0.0";
 
     private static Logger logger;
 

@@ -21,6 +21,3 @@ item.maxlermod.crystal_core.name=Crystal Core
 item.maxlermod.adamantite_ingot.name=Adamantite Ingot
 item.maxlermod.crystal_component.name=Unfinished Crystal Component
 item.maxlermod.inscribed_crystal_component.name=Crystal Component
-
-// Enchantments
-enchantment.homing=Homing
