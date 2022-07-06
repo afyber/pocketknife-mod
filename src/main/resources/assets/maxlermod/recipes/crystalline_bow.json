@@ -5,8 +5,8 @@
   "type": "forge:ore_shaped",
   "pattern": [
     "ba ",
-    "b a",
-    "ba"
+    "bca",
+    "ba "
   ],
   "key": {
     "a": {
@@ -14,6 +14,9 @@
     },
     "b": {
       "item": "minecraft:string"
+    },
+    "c": {
+      "item": "maxlermod:adamantite_ingot"
     }
   }
 }

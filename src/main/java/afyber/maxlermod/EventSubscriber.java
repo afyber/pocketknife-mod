@@ -32,14 +32,13 @@ public final class EventSubscriber {
 		registry.register(ItemRegistrationHelper.newBasicItem("crystal").setCreativeTab(CreativeTabs.MATERIALS));
 		registry.register(ItemRegistrationHelper.newBasicItem("crystal_component").setCreativeTab(CreativeTabs.MATERIALS));
 		registry.register(ItemRegistrationHelper.newBasicItem("inscribed_crystal_component").setCreativeTab(CreativeTabs.MATERIALS));
-		registry.register(ItemRegistrationHelper.newItem(new ItemBowCustom(640, 4), "crystalline_bow").setCreativeTab(CreativeTabs.COMBAT));
+		registry.register(ItemRegistrationHelper.newItem(new ItemBowCustom(640, 3), "crystalline_bow").setCreativeTab(CreativeTabs.COMBAT));
 		ItemRegistrationHelper.registerNewToolSet(registry, "adamantite", ToolMaterialCustom.ADAMANTITE);
 		ItemRegistrationHelper.registerNewToolSet(registry, "crystalline", ToolMaterialCustom.CRYSTALLINE);
 	}
 
 	@SubscribeEvent
 	public static void registerRecipes(RegistryEvent.Register<IRecipe> event) {
-		IForgeRegistry<IRecipe> registry = event.getRegistry();
 		if (MaxlerConfig.expensiveCrystalRecipe) {
 			CompressorRecipes.addRecipe(new ItemStack(ItemHolder.CRYSTAL), "YYY", "YXY", "YYY", 'X', new ItemStack(ItemHolder.CRYSTAL_CORE), 'Y', new ItemStack(Items.DIAMOND));
 		}
