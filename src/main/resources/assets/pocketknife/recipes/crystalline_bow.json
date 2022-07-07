@@ -1,0 +1,22 @@
+{
+  "result": {
+    "item": "pocketknife:crystalline_bow"
+  },
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "ba ",
+    "bca",
+    "ba "
+  ],
+  "key": {
+    "a": {
+      "item": "pocketknife:inscribed_crystal_component"
+    },
+    "b": {
+      "item": "minecraft:string"
+    },
+    "c": {
+      "item": "pocketknife:adamantite_ingot"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "result": {
+    "item": "pocketknife:crystal_component"
+  },
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "a",
+    "b",
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "pocketknife:adamantite_ingot"
+    },
+    "b": {
+      "item": "pocketknife:crystal"
+    }
+  }
+}

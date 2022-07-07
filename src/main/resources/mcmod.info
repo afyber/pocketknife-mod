@@ -1,15 +1,15 @@
 [
 {
-  "modid": "maxlermod",
-  "name": "Maxler Mod",
-  "description": "A custom mod for the Maxler Modpack, bringing together machines and items from AE2 and Galacticraft to create powerful weapons and tools.",
-  "version": "0.1.0.0",
+  "modid": "pocketknife",
+  "name": "Pocketknife",
+  "description": "A custom mod for the MaxlerPack, bringing together machines and items from AE2 and Galacticraft to create powerful weapons and tools.",
+  "version": "0.1.1",
   "mcversion": "1.12.2",
   "url": "",
   "updateUrl": "",
   "authorList": ["afyber"],
   "credits": "Thanks to Cubicoder's Forge 1.12.2 tutorials",
-  "logoFile": "assets/maxlermod/textures/maxlermod_icon.png",
+  "logoFile": "assets/pocketknife/textures/pocketknife_icon.png",
   "screenshots": [],
   "dependencies": ["Galacticraft", "Applied Energistics 2"]
 }

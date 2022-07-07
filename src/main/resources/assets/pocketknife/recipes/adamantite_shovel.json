@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "pocketknife:adamantite_shovel"
+  },
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "a",
+    "b",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "pocketknife:adamantite_ingot"
+    },
+    "b": {
+      "type": "forge:ore_dict",
+      "ore": "ingotIron"
+    }
+  }
+}

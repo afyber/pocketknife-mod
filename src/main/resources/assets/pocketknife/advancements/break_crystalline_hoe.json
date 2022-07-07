@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "pocketknife:crystalline_hoe"
+    },
+    "title": {
+      "translate": "advancements.husbandry.pocketknife.break_crystalline_hoe.title"
+    },
+    "description": {
+      "translate": "advancements.husbandry.maxalermod.break_crystalline_hoe.description"
+    },
+    "frame": "challenge"
+  },
+  "parent": "minecraft:husbandry/break_diamond_hoe",
+  "rewards": {
+    "experience": 10000
+  },
+  "criteria": {
+    "broke_hoe": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "item": "pocketknife:crystalline_hoe"
+        },
+        "durability": -1
+      }
+    }
+  }
+}

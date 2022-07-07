@@ -1,6 +1,0 @@
-{
-    "parent": "item/bow",
-    "textures": {
-        "layer0": "maxlermod:items/crystalline_bow_pulling_1"
-    }
-}

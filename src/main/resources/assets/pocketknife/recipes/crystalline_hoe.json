@@ -1,0 +1,19 @@
+{
+  "result": {
+    "item": "pocketknife:crystalline_hoe"
+  },
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "aa",
+    " b",
+    " b"
+  ],
+  "key": {
+    "a": {
+      "item": "pocketknife:inscribed_crystal_component"
+    },
+    "b": {
+      "item": "pocketknife:adamantite_ingot"
+    }
+  }
+}

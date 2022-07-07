@@ -1,0 +1,21 @@
+{
+  "result": {
+    "item": "pocketknife:crystal_core"
+  },
+  "type": "forge:ore_shaped",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "type": "appliedenergistics2:part",
+      "part": "material.certus_quartz_crystal"
+    },
+    "b": {
+      "type": "forge:ore_dict",
+      "ore": "dustFluix"
+    }
+  }
+}

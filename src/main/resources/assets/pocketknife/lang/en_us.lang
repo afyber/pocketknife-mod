@@ -1,0 +1,23 @@
+// Advancements
+advancements.husbandry.pocketknife.break_crystalline_hoe.title=Ludicrous Dedication
+advancements.husbandry.pocketknife.break_crystalline_hoe.description=Use up every point of durability in a Crystalline Hoe, and then realize you should have put Mending on it
+
+// Tools
+item.pocketknife.crystalline_sword.name=Crystalline Sword
+item.pocketknife.crystalline_pickaxe.name=Crystalline Pickaxe
+item.pocketknife.crystalline_axe.name=Crystalline Axe
+item.pocketknife.crystalline_shovel.name=Crystalline Shovel
+item.pocketknife.crystalline_hoe.name=Crystalline Hoe
+item.pocketknife.crystalline_bow.name=Crystalline Bow
+item.pocketknife.adamantite_sword.name=Adamantite Sword
+item.pocketknife.adamantite_pickaxe.name=Adamantite Pickaxe
+item.pocketknife.adamantite_axe.name=Adamantite Axe
+item.pocketknife.adamantite_shovel.name=Adamantite Shovel
+item.pocketknife.adamantite_hoe.name=Adamantite Hoe
+
+// Items
+item.pocketknife.crystal.name=Crystal
+item.pocketknife.crystal_core.name=Crystal Core
+item.pocketknife.adamantite_ingot.name=Adamantite Ingot
+item.pocketknife.crystal_component.name=Unfinished Crystal Component
+item.pocketknife.inscribed_crystal_component.name=Crystal Component
